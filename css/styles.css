@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    width: 100%;
+}
+.navegacion{
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    height: 60px;
+    gap: 20px;
+}
+
+.nav-links{
+    display: flex;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 20px;
+    justify-content: flex-start;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 2px 10px;
+}
+
+.nav-titulo{
+    display: flex;
+    margin-left: 60px;
+    color: white;
+    margin: 10px 0px 10px 80px ;
+    padding-left: 60px;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cuerpo h2{
+    margin-top: 20px;
+}
+.encabezado{
+    background-color: rgb(97, 97, 231);
+    height: 100px;
+    position: relative;
+}
+
+.usuario{
+    position: absolute;
+    width: 80px;
+    top: 55px;
+    left: 20px;
+    border-radius: 50%;
+    border-color: rgb(238, 232, 232);
+    border-style: solid;
+    border-width: 2px;  
+}
+
+.cuerpo{
+    padding: 25px;  
+    border: 2px solid rgb(231, 224, 224);
+}
+
+.iconos{
+    width: 12px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.ubicacion{
+    margin-bottom: 10px;
+}
+
+.edicion{
+    margin-top: 10px;
+}
+
+.contenidoPrimario{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: 20px;
+    flex: 2;
+}
+
+.tarjeta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 2px solid gray;
+    margin-left: 200px;
+}
+
+.tarjeta-educacion{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 25px;
+    border: 2px solid rgb(231, 224, 224);
+    margin-left: 200px;
+}
+.encabezado-tarjetas{
+    padding: 20px;
+    background-color: rgb(97, 97, 231);
+    height: 20px;  
+}
+.cuerpo-educacion{
+    margin: 15px;
+
+}
+.contenido-tarjetas{
+    display: flex;
+    
+}
+.contenido-conexiones{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-top: 25px;
+    flex:1;
+    
+}
+.imagenes{
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid black
+}
+.aceptar{
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid black
+}
+.rechazar{
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid black
+}
+.connection-request{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(231, 224, 224);
+}
+.conexion-request{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    gap: 10px;
+}
+.your-connections{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(231, 224, 224);
+    margin-top: 20px;
+}
+.cuerpo-your-connections{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    gap: 10px;
+}
+span{
+    margin: 10px;
+}
