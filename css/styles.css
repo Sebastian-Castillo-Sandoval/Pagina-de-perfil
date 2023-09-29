@@ -140,7 +140,8 @@ body{
 .aceptar{
     width: 35px;
     border-radius: 50%;
-    border: 1px solid black
+    border: 1px solid black;
+    margin-right: 7px;
 }
 .rechazar{
     width: 35px;
@@ -171,5 +172,18 @@ body{
     gap: 10px;
 }
 span{
-    margin: 10px;
+    margin:10px;
+ 
+}
+.agrupar-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.iconos-aceptar{
+    display: flex;
+    flex-direction: row;
+    
 }
